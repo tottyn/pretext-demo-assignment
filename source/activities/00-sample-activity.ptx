@@ -1,88 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<activity xml:id="statistical-thinking-activity">
+<worksheet xml:id="statistical-thinking-activity">
   <title>Statistical Thinking Activity</title>
 
-  <statement>
-    <p>
-      Objectives: This activity highlights the statistical thinking mindset, where we observe several ways to quantitatively summarize data and then draw justified conclusions about a population.
-    </p>
-  </statement>
+  <page>
 
-  <statement>
-    <p>Does this drug work?</p>
+    <exercise>
+      <statement>
+        <p>
+          Objectives: This activity highlights the statistical thinking mindset, where we observe several ways to quantitatively summarize data and then draw justified conclusions about a population.
+        </p>
 
-    <p>
-      The below table reports the number of people who became very sick after contracting an illness, broken out by if they took a particular drug. We will refer to those who took the drug as the treatment group, and those who did not take the drug as the control group. Note that the drug was not randomly assigned in this setting.
-    </p>
+        <p>
+          Does this drug work?
+        </p>
 
-    <p>
-      Table 1  
-      Control: Sick 253, Total 151,054  
-      Treatment: Sick 402, Total 47,008  
-      Overall: Sick 655, Total 198,062
-    </p>
-  </statement>
+        <p>
+          The below table reports the number of people who became very sick after contracting an illness, broken out by if they took a particular drug. We will refer to those who took the drug as the treatment group, and those who did not take the drug as the control group. Note that the drug was not randomly assigned in this setting.
+        </p>
 
-  <task>
-    <statement>
-      <p>
-        (a) Calculate the proportions of the control group and the treatment group who became sick, and compare the proportions. Which group had a higher rate of sickness?
-      </p>
-    </statement>
-  </task>
+        <p>
+          Table 1:
+          Control — Sick: 253, Total: 151,054  
+          Treatment — Sick: 402, Total: 47,008  
+          Overall — Sick: 655, Total: 198,062
+        </p>
+      </statement>
+    </exercise>
 
-  <task>
-    <statement>
-      <p>
-        (b) What other factors may we want to consider before concluding that the drug makes you more likely to get very sick after contracting the illness?
-      </p>
-    </statement>
-  </task>
+    <exercise>
+      <statement>
+        <p>
+          (a) Calculate the proportions of the control group and the treatment group who became sick, and compare the proportions. Which group had a higher rate of sickness?
+        </p>
+      </statement>
+    </exercise>
 
-  <statement>
-    <p>
-      One additional factor we have access to is the age (younger or older) of the people. Below is a second table.
-    </p>
+    <exercise>
+      <statement>
+        <p>
+          (b) What other factors may we want to consider before concluding that the drug makes you more likely to get very sick after contracting the illness?
+        </p>
+      </statement>
+    </exercise>
 
-    <p>
-      Table 2  
-      Control Younger Sick 48 Total 147,612  
-      Control Older Sick 205 Total 3,442  
-      Treatment Younger Sick 13 Total 25,536  
-      Treatment Older Sick 389 Total 21,472  
-      Overall Younger Sick 61 Total 173,148  
-      Overall Older Sick 594 Total 24,912
-    </p>
-  </statement>
+    <exercise>
+      <statement>
+        <p>
+          One additional factor we have access to is the age (younger or older) of the people. Below is Table 2.
+        </p>
 
-  <task>
-    <statement>
-      <p>
-        (c) Explore the data in Table 2 by computing several more proportions. In particular, compute the sickness rate for:
-      </p>
+        <p>
+          Table 2:
+          Control Younger Sick 48 Total 147,612  
+          Control Older Sick 205 Total 3,442  
+          Treatment Younger Sick 13 Total 25,536  
+          Treatment Older Sick 389 Total 21,472  
+          Overall Younger Sick 61 Total 173,148  
+          Overall Older Sick 594 Total 24,912
+        </p>
+      </statement>
+    </exercise>
 
-      <p>
-        (i) the younger control people and (ii) the younger treatment people  
-        (iii) the older control people and (iv) the older treated people
-      </p>
-    </statement>
-  </task>
+    <exercise>
+      <statement>
+        <p>
+          (c) Explore the data in Table 2 by computing several more proportions. In particular, compute the sickness rate for:
+        </p>
 
-  <task>
-    <statement>
-      <p>
-        (d) Compute the proportion of older people in the control group and older people in the treated group
-      </p>
-    </statement>
-  </task>
+        <p>
+          (i) the younger control people and (ii) the younger treatment people  
+          (iii) the older control people and (iv) the older treated people
+        </p>
+      </statement>
+    </exercise>
 
-  <task>
-    <statement>
-      <p>
-        (e) What do you notice about the proportions you just calculated? Do these results really show that the drug does not work?
-      </p>
-    </statement>
-  </task>
+    <exercise>
+      <statement>
+        <p>
+          (d) Compute the proportion of older people in the control group and older people in the treated group
+        </p>
+      </statement>
+    </exercise>
 
-</activity>
+    <exercise>
+      <statement>
+        <p>
+          (e) What do you notice about the proportions you just calculated? Do these results really show that the drug does not work?
+        </p>
+      </statement>
+    </exercise>
+
+  </page>
+</worksheet>
