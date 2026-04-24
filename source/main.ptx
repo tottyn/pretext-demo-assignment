@@ -41,7 +41,7 @@
 
 
     <chapter xml:id="syllabus">
-      <title>Syllabus</title>
+      <title>Assignment</title>
 
       <!-- Remove the example and replace with your own activities -->
       <xi:include href="./syllabus/syllabus.ptx"/>
