@@ -10,7 +10,6 @@
   <p><alert>Data Description:</alert> The below table reports the number of people who became very sick after contracting an illness, broken out by if they took a particular drug. We will refer to those who took the drug as the treatment group, and those who did not take the drug as the control group. Note that the drug was not randomly assigned in this setting. <alert>Does this drug work? </alert></p>
 
 <table xml:id="table-drug-data">
-  <title>Table 1</title>
 
   <tabular>
     <row>
@@ -54,15 +53,55 @@
 
 <p><alert>Including More Data:</alert> One additional factor we have access to is the age (younger or older) of the people. Below is a table that includes the data disaggregated by age group.</p>
 
-        <p>
-          Table 2:
-          Control Younger Sick 48 Total 147,612  
-          Control Older Sick 205 Total 3,442  
-          Treatment Younger Sick 13 Total 25,536  
-          Treatment Older Sick 389 Total 21,472  
-          Overall Younger Sick 61 Total 173,148  
-          Overall Older Sick 594 Total 24,912
-        </p>
+        <table xml:id="table-age-drug">
+  <title>Table 2</title>
+
+  <tabular>
+    <!-- Top header row -->
+    <row>
+      <cell></cell>
+      <cell>Control</cell>
+      <cell></cell>
+      <cell>Treatment</cell>
+      <cell></cell>
+      <cell>Overall</cell>
+      <cell></cell>
+    </row>
+
+    <!-- Subheader row -->
+    <row>
+      <cell></cell>
+      <cell>Younger</cell>
+      <cell>Older</cell>
+      <cell>Younger</cell>
+      <cell>Older</cell>
+      <cell>Younger</cell>
+      <cell>Older</cell>
+    </row>
+
+    <!-- Data: Sick -->
+    <row>
+      <cell>Sick</cell>
+      <cell>48</cell>
+      <cell>205</cell>
+      <cell>13</cell>
+      <cell>389</cell>
+      <cell>61</cell>
+      <cell>594</cell>
+    </row>
+
+    <!-- Data: Total -->
+    <row>
+      <cell>Total</cell>
+      <cell>147,612</cell>
+      <cell>3,442</cell>
+      <cell>25,536</cell>
+      <cell>21,472</cell>
+      <cell>173,148</cell>
+      <cell>24,912</cell>
+    </row>
+  </tabular>
+</table>
 
     <exercise>
       <statement>
