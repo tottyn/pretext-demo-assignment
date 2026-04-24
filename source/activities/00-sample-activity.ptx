@@ -54,7 +54,6 @@
 <p><alert>Including More Data:</alert> One additional factor we have access to is the age (younger or older) of the people. Below is a table that includes the data disaggregated by age group.</p>
 
         <table xml:id="table-age-drug">
-  <title>Table 2</title>
 
   <tabular>
     <!-- Top header row -->
