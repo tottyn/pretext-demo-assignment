@@ -5,45 +5,23 @@
 
   <statement>
     <p>
-      <alert>Objectives:</alert>
-      This activity highlights the statistical thinking mindset, where we observe several ways to quantitatively summarize data and then draw justified conclusions about a population.
+      Objectives: This activity highlights the statistical thinking mindset, where we observe several ways to quantitatively summarize data and then draw justified conclusions about a population.
     </p>
   </statement>
 
   <statement>
-    <p><alert>Does this drug work?</alert></p>
+    <p>Does this drug work?</p>
 
     <p>
-      The below table reports the number of people who became very sick after contracting an illness, broken out by if they took a particular drug.
-      We will refer to those who took the drug as the treatment group, and those who did not take the drug as the control group.
-      Note that the drug was not randomly assigned in this setting.
+      The below table reports the number of people who became very sick after contracting an illness, broken out by if they took a particular drug. We will refer to those who took the drug as the treatment group, and those who did not take the drug as the control group. Note that the drug was not randomly assigned in this setting.
     </p>
 
-    <table>
-      <title>Table 1</title>
-      <tabular>
-        <row>
-          <cell></cell>
-          <cell>Control</cell>
-          <cell>Treatment</cell>
-          <cell>Overall</cell>
-        </row>
-
-        <row>
-          <cell>Sick</cell>
-          <cell>253</cell>
-          <cell>402</cell>
-          <cell>655</cell>
-        </row>
-
-        <row>
-          <cell>Total</cell>
-          <cell>151,054</cell>
-          <cell>47,008</cell>
-          <cell>198,062</cell>
-        </row>
-      </tabular>
-    </table>
+    <p>
+      Table 1  
+      Control: Sick 253, Total 151,054  
+      Treatment: Sick 402, Total 47,008  
+      Overall: Sick 655, Total 198,062
+    </p>
   </statement>
 
   <task>
@@ -64,50 +42,18 @@
 
   <statement>
     <p>
-      One additional factor we have access to is the age (younger or older) of the people. Below is a table that includes this information.
+      One additional factor we have access to is the age (younger or older) of the people. Below is a second table.
     </p>
 
-    <table>
-      <title>Table 2</title>
-      <tabular>
-        <row>
-          <cell></cell>
-          <cell colspan="2">Control</cell>
-          <cell colspan="2">Treatment</cell>
-          <cell colspan="2">Overall</cell>
-        </row>
-
-        <row>
-          <cell></cell>
-          <cell>Younger</cell>
-          <cell>Older</cell>
-          <cell>Younger</cell>
-          <cell>Older</cell>
-          <cell>Younger</cell>
-          <cell>Older</cell>
-        </row>
-
-        <row>
-          <cell>Sick</cell>
-          <cell>48</cell>
-          <cell>205</cell>
-          <cell>13</cell>
-          <cell>389</cell>
-          <cell>61</cell>
-          <cell>594</cell>
-        </row>
-
-        <row>
-          <cell>Total</cell>
-          <cell>147,612</cell>
-          <cell>3,442</cell>
-          <cell>25,536</cell>
-          <cell>21,472</cell>
-          <cell>173,148</cell>
-          <cell>24,912</cell>
-        </row>
-      </tabular>
-    </table>
+    <p>
+      Table 2  
+      Control Younger Sick 48 Total 147,612  
+      Control Older Sick 205 Total 3,442  
+      Treatment Younger Sick 13 Total 25,536  
+      Treatment Older Sick 389 Total 21,472  
+      Overall Younger Sick 61 Total 173,148  
+      Overall Older Sick 594 Total 24,912
+    </p>
   </statement>
 
   <task>
@@ -116,10 +62,10 @@
         (c) Explore the data in Table 2 by computing several more proportions. In particular, compute the sickness rate for:
       </p>
 
-      <ul>
-        <li><p>(i) the younger control people and (ii) the younger treatment people</p></li>
-        <li><p>(iii) the older control people and (iv) the older treated people</p></li>
-      </ul>
+      <p>
+        (i) the younger control people and (ii) the younger treatment people  
+        (iii) the older control people and (iv) the older treated people
+      </p>
     </statement>
   </task>
 
